@@ -11,7 +11,7 @@
    <form action="cadastro.php" method="get" autocomplete="on">
 
     <p>
-        <label for="iest">Estado</label>
+        <label for="iest">Estado: </label>
         <select name="estado" id="iest">
 
             <option value="" selected>--- Escolha ---</option>
@@ -27,9 +27,24 @@
             <option value="ma">Maranhão</option>
             <option value="rn">Rio Grande do Norte</option>
         </optgroup>
-
         </select>
-        
+    </p>
+
+    <p>
+        <label for="iprof">Profissão: </label>
+        <input type="text" name="prof" id="iprof" list="istprof">
+        <datalist id="istprof">
+            <option >Professor</option>
+            <option >Contabilista</option>
+            <option >Desenvolvedor</option>
+            <option >Administrador</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="imsg">Mensagem: </label>
+
+    <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem aqui"></textarea>
     </p>
 
 
