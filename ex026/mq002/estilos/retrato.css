@@ -1,3 +1,8 @@
 @charset "UTF-8"
 
 /* Configurações Retrato */
+
+body {
+    background-image:url(retrato.css);
+    background-position: center bottom;
+}
